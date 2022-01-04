@@ -1,0 +1,22 @@
+
+.wrapper {
+    width: 80%
+}
+
+#square {
+    margin: 0 auto;
+    margin-top: 150px;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+
+.button-div {
+    width: 80%;
+}
+
+#reset {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}

@@ -1,0 +1,23 @@
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+   
+}
+
+.label-style {
+    font-size: 25px;
+    display: block;
+}
+
+.input-style {
+    width: 300px;
+}
+
+#btn {
+    display: block;
+    margin-top: 20px;
+    margin-left: 118px;
+}
+
+

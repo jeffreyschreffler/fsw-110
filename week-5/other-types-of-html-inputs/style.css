@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(222, 247, 224);
+}
+
+.wrapper {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgba(134, 196, 177, .6);
+    border-radius: 5px;
+}
+
+#main-title {
+    text-align: center;
+    margin-top: 150px;
+    padding: 50px;
+    color: rgb(32, 89, 112);
+}
+
+.label-style {
+    font-size: 25px;
+    color:  cornflowerblue;
+    position: relative;
+    left: 100px;
+}
+
+.text-input-style {
+    position: relative;
+    left: 100px;
+}
+
+#age {
+    position: relative;
+    left: 170px;
+}
+
+#last-name {
+    position: relative;
+    left: 103px;
+}
+
+#age-label {
+    position: relative;
+    left: 170px;
+}
+
+.shopped-before-title {
+    font-size: 20px;
+    color: cornflowerblue;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+
+.shopped-before-style {
+    color: cornflowerblue;
+    position: relative;
+    top: 20px;
+    left: 105px;
+}
+
+.radio-style {
+    position: relative;
+    top: 20px;
+    left: 105px;
+}
+
+.refer-title {
+    font-size: 20px;
+    color: cornflowerblue;
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+
+#refer-selection {
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+
+.diet {
+    color: cornflowerblue;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 105px;
+}
+
+.check-style {
+    position: relative;
+    bottom: -30px;
+    left: 105px;
+}
+
+.check-label-style {
+    position: relative;
+    top: 30px;
+    left: 105px;
+    color: cornflowerblue;
+}
+
+#btn-submit {
+    position: relative;
+    top: 120px;
+    left: 260px;
+}
+

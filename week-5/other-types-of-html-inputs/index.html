@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Forms</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <form action="#" id='question'>
+                <h1 id="main-title">Meals Direct</h1>
+                <label for="first-name" class="label-style" id='first-name-label'>First Name</label>
+                <input type="text" class="text-input-style" id="first-name" required name='first-name'>
+                    <br>
+                <label for="last-name" class="label-style" id='last-name-label'>Last Name</label>
+                <input type="text" class="text-input-style" id="last-name" required name='last-name'>
+                     <br>
+                <label for="age" class="label-style" id='age-label'>Age</label>
+                <input type="number" class="text-input-style" id="age" name='age' required>
+                    <br>        
+                <label class='shopped-before-title' id='shopped-before-label'>Have you shopped with us before?</label>
+                <label for="shopped-before-yes" class="shopped-before-style">Yes</label>
+                <input type="radio" class="radio-style" id="shopped-before-yes" name="shopped-before" value='yes'>
+                <label for="shopped-before-no" class="shopped-before-style">No</label>
+                <input type="radio" class="radio-style" id="shopped-before-no" name="shopped-before" value='no'>
+                    <br>
+                <label class='refer-title' id='refer'>Would you recommned us to your friends?</label>
+                <select name="refer" id="refer-selection">
+                    <option value="yes">yes</option>
+                    <option value="no">No</option>
+                    <option value="unsure">Unsure</option>
+                </select>
+                    <br>
+                <label  class="diet" id='diet'>Diet Restrictions</label>
+                <label for="check-vegan" class="check-label-style">Vegan</label>
+                <input type="checkbox" class="check-style" id="check-vegan" name='diet' value='Vegan'>
+                <label for="check-vegetarian" class="check-label-style">Vegetarian</label>
+                <input type="checkbox" class="check-style" id="check-vegetarian" name='diet' value='Vegetarian'>
+                <label for="check-other" class="check-label-style">Other</label>
+                <input type="checkbox" class="check-style" id="check-other" name='diet' value='other'>
+                    <br>
+                <button id='btn-submit'>Submit</button>
+            </form>
+        </div>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
