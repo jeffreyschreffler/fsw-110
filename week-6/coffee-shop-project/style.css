@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+    background-color: tomato;
+}
+
+#page-title {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    color: whitesmoke
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(, 1fr);
+    padding-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#coffee {
+    grid-column: 1/2;
+}
+
+#tea {
+    grid-column: 2/3;
+}
+
+#bagel {
+    grid-column: 3/4;
+}
+
+.checkout {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,30px);
+    color: whitesmoke;
+    
+}
+
+.coffee-input-wrapper {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: whitesmoke;
+}
+
+.tea-input-wrapper {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: whitesmoke;
+}
+
+.bagel-input-wrapper {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    color: whitesmoke;
+}
+
+.tea-input-wrapper input {
+    margin-left: 20px;
+}
+
+.bagel-input-wrapper input {
+    margin-left: 6px;
+    
+}
+
+.checkout-total-price-style {
+    grid-column: 5/6;
+}
+
+.checkout-total-amount {
+    grid-column: 5/6;
+}
+
+.checkout-total-amount h2{
+    font-size: 1px;
+}
+
+
+.footer-bar {
+    border-bottom: 3px solid tomato;
+}
+
+footer {
+   margin-top: 10px;
+   margin-left: 20px;
+   padding: 10px;
+   font-size: 15px;
+   color: whitesmoke;
+}

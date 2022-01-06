@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="page-title"><h1>Online Coffee Shop</h1>
+            </div>
+            <div class="items">
+                <div id="coffee">
+                    <img src="/images/coffee.jpg" width="200" alt="Menu-Coffee" class="photo-style" id="coffee-img">
+                    <h3 class="item-name-style">Coffee</h3>
+                    <h4 class="item-price-style">$2</h4>
+                </div>
+                <div id="tea">
+                    <img src="/images/tea.jpg" width='200' alt="Menu-Tea" class="photo-style" id="tea-img">
+                    <h3 class="item-name-style">Tea</h3>
+                    <h4 class="item-price-style">$2</h4>
+                </div>
+                <div id="bagel">
+                    <img src="/images/bagel.jpg" width='200' alt="Menu-Bagel" class="photo-style" id="bagel-img">
+                    <h3 class="item-name-style">Bagel</h3>
+                    <h4 class="item-price-style">$4</h4>
+                           <!-- coffee -->
+                <div class="coffee-input-wrapper">
+                    <label for="" class="label-stye">Coffee</label>
+                <input type="number" min='0' class="input-style" id="coffee-input" value="0" >
+                </div>
+                   <!-- tea -->
+                <div class="tea-input-wrapper">
+                    <label for="" class="label-stye">Tea</label>
+                <input type="number" min='0' class="input-style" id="tea-input"  value="0">
+                </div>
+             <!-- bagel -->
+             <div class="bagel-input-wrapper">
+                <label for="" class="label-stye">Bagel</label>
+                <input type="number" min='0' class="input-style" id="bagel-input" value="0" >
+             </div>
+                <!-- total -->
+                <div class="checkout-wrapper"> 
+                    <h3 class="checkout-total-price-style">Total Amount Due</h3>
+                    <h2 id="checkout-total-amount"></h2>
+                    <button id="total-btn">Total</button>
+                </div>
+        </div>
+        <div class="footer-bar"></div>
+            <footer>
+                <p>contact@onlinecoffeeshop.org </p>
+                <p>onlinecoffeeshop.org</p>
+                <p>Address: 100 coffee blvd ny ny 10000</p>
+            </footer>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
