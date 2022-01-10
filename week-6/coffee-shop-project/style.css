@@ -19,7 +19,7 @@
 
 .items {
     display: grid;
-    grid-template-columns: repeat(, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding-top: 50px;
     text-align: center;
     color: whitesmoke;

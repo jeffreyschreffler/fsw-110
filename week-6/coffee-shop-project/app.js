@@ -25,6 +25,7 @@ function totalItems() {
 
 //event listener
 
-btn.addEventListener('click', function() {
+btn.addEventListener('click', function(e) {
+    e.preventDefault();
     displayTotal.innerHTML = `$${totalItems()}`
 })
