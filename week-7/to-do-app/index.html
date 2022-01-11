@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>To do</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header-style">
+                <h1 class="h1-style">To do</h1>
+                <div class="horizontal-line"></div>
+            </header>
+            <main class="main-section">
+                <form action="#" class="form-style">
+                    <!-- title -->
+                    <label for="title" class="title-label" id='title-label'>Title</label>
+                    <input type="text" class="title-input" name='title' id='title-input'>
+                    <!-- list items -->
+                    <label for="list-items" class="list-items-label">Description</label>
+                    <input type="text" class="list-items-input" id='list-items-input' name='list-items'>
+                    <!-- submit -->
+                    <button id="add-btn">Add to list</button>
+                </form>
+            </main>
+            <section class="list-items-section">
+                <div class="todo-wrapper">
+                    <ul class="todo-list"></ul>
+                </div>
+            </section>
+        </div>
+            <footer>
+                <p>Created by: Jeffrey Schreffler</p>
+                <p>jeffrey.schreffler@bryanuniversity.edu</p>
+            </footer>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
